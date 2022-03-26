@@ -1,0 +1,56 @@
+#description {
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  #survey-form {
+    border: 1px solid grey;
+    height: 200px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  #name {
+    padding: 4px;
+    border: none;
+    border-bottom: 2px solid blue;
+    width: 50%;
+    margin: 5px;
+  }
+  #name:focus {
+    border-bottom: 2px solid grey;
+    border: 0px;
+    border-width: 0px;
+  }
+  #email {
+    padding: 4px;
+    border: none;
+    width: 50%;
+    border-bottom: 2px solid blue;
+    margin: 5px;
+  }
+  #email:focus {
+    border-bottom: 2px solid grey;
+    border: 0px;
+    border-width: 0px;
+  }
+  #number {
+    padding: 4px;
+    border: none;
+    border-bottom: 2px solid blue;
+    width: 50%;
+    margin: 5px;
+  }
+  #number:focus {
+    border-bottom: 2px solid grey;
+    border: 0px;
+    border-width: 0px;
+  }
+  textarea {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  
